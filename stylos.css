@@ -1,0 +1,45 @@
+.titulo {
+    background: #9aca40;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #dee5e8;
+}
+
+.tema_inicial {
+    margin-bottom: 30px;
+}
+
+.tema_principal {
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.noticias_actuales {
+    background: #dee5e8;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.logo_conjunto {
+    width: 35%;
+}
+
+.pagina_extra {
+    background: #2196f3;
+    padding: 30px 0;
+}
+
+.menus {
+    color: #f2f2f2;
+}
+
+.menus_principales{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contactanos {
+    background: #1e1e1e;
+    color: #f2f2f2;
+    text-align: center;
+}
