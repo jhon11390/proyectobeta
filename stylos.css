@@ -2,6 +2,7 @@ body {
     background-image: url(img/fondoblancoladrillos.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    
 }
 
 .titulo {
@@ -9,6 +10,7 @@ body {
     text-align: center;
     margin-bottom: 30px;
     color: #dee5e8;
+
 }
 
 .tema_inicial {
