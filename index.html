@@ -20,7 +20,50 @@
             <main class="tema_principal col-lg-8 col-md-12">
                 <h2>Bienvenido a la pagina principal del conjunto</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae praesentium, molestiae ut temporibus reprehenderit quam tenetur itaque, magnam consequatur, inventore laborum omnis veniam voluptate sed amet aliquam dolorum! Dolor, culpa.</p>
-                <img class="logo_conjunto" src="img/logo_conjunto.jpg" alt="logo del conjunto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="carousel slide" id="fotoswelcome" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#fotoswelcome" data-slide-to="0" class="active"></li>
+                                    <li data-target="#fotoswelcome" data-slide-to="1"></li>
+                                    <li data-target="#fotoswelcome" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="carousel-caption d-block">
+                                            <h4>BIENVENIDOS</h4>
+                                            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, nam!</P>
+                                        </div>
+                                        <img width="100%" src="img/carousel1.jpg" alt="">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="carousel-caption d-block">
+                                            <h4>CONTACTANOS</h4>
+                                            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, nam!</P>
+                                        </div>
+                                        <img width="100%" src="img/carousel2.jpg" alt="">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="carousel-caption d-block">
+                                            <h4>SIGUENOS</h4>
+                                            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, nam!</P>
+                                        </div>
+                                        <img width="100%" src="img/carousel3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <a href="#fotoswelcome" class="carousel-control-prev" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Anterior</span>
+                                </a>
+                                <a href="#fotoswelcome" class="carousel-control-next" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Anterior</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
             <aside class="noticias_actuales col-lg-3 col-md-12 align-self-center">
                 <h1>Noticias actuales</h1>
@@ -67,7 +110,7 @@
             </div>
         </footer>
     </div>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
