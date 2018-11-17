@@ -60,5 +60,9 @@ body {
 
 .atributos_tabla {
     text-align: center;
+ 
 }
 
+.imagen_residentes {
+    width: 100%;
+}
